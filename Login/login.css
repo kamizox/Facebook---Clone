@@ -1,4 +1,51 @@
-
-.container{
+body {
+    margin: 0;
+    background-color: #F2F4F7;
+    padding: 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.login {
+ 
+
+}
+
+.login-form {
+       width: 400px;
+    height: 350px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.InpBox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.InpEmail {
+    height: 40px;
+    width: 350px;
+
+}
+
+.InpPass {
+    height: 40px;
+    width: 350px;
+
 }
