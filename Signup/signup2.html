@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+    <style>
+        * {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        <div class="header-text">
+            <h1>facebook</h1>
+        </div>
+
+        <div class="signup-box">
+            
+            <div class="signup-header">
+                <h2>Create a new account</h2>
+                <p>It's quick and easy.</p>
+                <div class="divider"></div>
+            </div>
+
+            <form action="#" class="signup-form">
+                <div class="name-fields">
+                    <input type="text" placeholder="First name" class="InpField small-inp">
+                    <input type="text" placeholder="Surname" class="InpField small-inp">
+                </div>
+                
+                <input type="text" placeholder="Mobile number or email address" class="InpField full-inp">
+                <input type="password" placeholder="New password" class="InpField full-inp">
+
+                <div class="label-text">Date of birth</div>
+                <div class="dob-fields">
+                    <select class="dob-select">
+                        <option>Day</option>
+                        </select>
+                    <select class="dob-select">
+                        <option>Month</option>
+                        </select>
+                    <select class="dob-select">
+                        <option>Year</option>
+                        </select>
+                </div>
+
+                <div class="label-text">Gender</div>
+                <div class="gender-fields">
+                    <div class="gender-option">
+                        <label for="female">Female</label>
+                        <input type="radio" id="female" name="gender">
+                    </div>
+                    <div class="gender-option">
+                        <label for="male">Male</label>
+                        <input type="radio" id="male" name="gender">
+                    </div>
+                    <div class="gender-option">
+                        <label for="custom">Custom</label>
+                        <input type="radio" id="custom" name="gender">
+                    </div>
+                </div>
+
+                <p class="policy-text">
+                    By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a>. You may receive SMS notifications from us and can opt out at any time.
+                </p>
+
+                <button type="submit" class="signup-btn">Sign Up</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
