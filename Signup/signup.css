@@ -1,10 +1,21 @@
 .body { 
-    background-color: #f0f2f5; 
-    font-family: Arial, sans-serif; 
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    height: 100vh; 
-    margin: 0; 
-    padding: 0 20px; 
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.Container{
+    width: 400px;
+
+}
+
+.forms{
+    margin-top: 20px;
+    width: 400px;
+    border: 1px solid black;
+    padding: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
 }
