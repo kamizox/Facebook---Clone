@@ -12,7 +12,7 @@
       
 
       <div class="forms">
-        <form action="" id="signup-form">
+        <form onsubmit="Signup(event)" action="" id="signup-form">
           <div class="form-wrapper">
 
             <div class="form-header">
@@ -128,8 +128,8 @@
             </div>
 
             <div class="contact-fields">
-              <input class="input" type="text" name="contact1" id="contact1" />
-              <input class="input" type="text" name="contact2" id="contact2" />
+              <input placeholder="Mobile number of Email address" class="input" type="text" name="contact1" id="email-phone" />
+              <input placeholder="New Password" class="input" type="text" name="contact2" id="New-Password" />
             </div>
 
             <div class="policy-text">
@@ -145,7 +145,7 @@
             </div>
 
             <div class="signup-btn">
-              <button id="signup-button">Sign Up</button>
+              <button type="submit" id="signup-button">Sign Up</button>
             </div>
 
             <div class="login-text">
