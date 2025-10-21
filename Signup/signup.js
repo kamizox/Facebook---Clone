@@ -26,5 +26,7 @@ function Signup(event) {
     let gender = document.querySelector('input[name="gender"]:checklist')
     let email_phone = document .getElementById("email-phone")
     let New_Password = document.getElementById("New-Password")
+
+    let user = new user()
 }
 
